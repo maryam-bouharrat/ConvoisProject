@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "convois",
+  "password": 2002,
+  "database": "convoisDB",
+  "entities": ["dist/entities/**/*.js"],
+  "migrations": ["dist/migrations/**/*.js"],
+  "synchronize": false,
+  "logging": true
+}
